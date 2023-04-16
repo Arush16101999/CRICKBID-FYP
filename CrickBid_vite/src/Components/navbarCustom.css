@@ -1,0 +1,21 @@
+.custom-navbar {
+  height: 60px;
+  padding: 0;
+}
+
+.custom-navbar .navbar-brand img {
+  height: 100%;
+  margin: 0;
+}
+
+.custom-navbar .navbar-nav {
+  height: 100%;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #e6c300;
+}
+
+.custom-navbar .navbar-nav .nav-link.active {
+  color: yellow;
+}

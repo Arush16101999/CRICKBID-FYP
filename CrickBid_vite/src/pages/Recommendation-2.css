@@ -1,0 +1,69 @@
+.image-container-second {
+  display: flex;
+  flex-direction: column;
+  height: 64vh;
+  padding-top: 10px;
+}
+
+.image-container-second .row {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.buttongroup {
+  padding-bottom: 10px;
+}
+
+.search-box-rec2 {
+  padding-top: 10px;
+  position: relative;
+}
+
+.search-box-rec2 input {
+  outline: none;
+  color: white;
+  width: 100%;
+  padding: 5px;
+  border: 2px solid #e6c300;
+  background-color: transparent;
+}
+
+.image-container-rec2-first {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 72vh;
+  padding-bottom: 20px;
+}
+
+.image-container-sub-rec2-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin-left: -30px;
+  margin-right: -40px;
+}
+
+.image-container-rec2-first .row {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.text-possition {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-style {
+  color: #e6c300;
+  text-align: center;
+}
