@@ -12,7 +12,7 @@ function Home() {
   const [images, setImages] = useState<Image[]>([
     {
       text: "Text Here",
-      url: "https://images.pexels.com/photos/12162438/pexels-photo-12162438.png?auto=compress&cs=tinysrgb&w=600",
+      url: "https://i.ibb.co/9tT3T90/place.jpg",
       imgText: "Image Text",
     },
     {
@@ -47,7 +47,7 @@ function Home() {
     },
     {
       text: "Text Here",
-      url: "https://images.pexels.com/photos/12162438/pexels-photo-12162438.png?auto=compress&cs=tinysrgb&w=600",
+      url: "https://i.ibb.co/gt6d2dS/franchise.jpg",
       imgText: "Image Text",
     },
   ]);
