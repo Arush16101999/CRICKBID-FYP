@@ -266,7 +266,7 @@ def Recommendation(selectedPlayerData,playerRanks):
 
 @app.route('/Rec-3', methods=['GET'])
 def RankImages_rec3():
-    x = {'name':'sasindu','id': [3,6,2,56], 'email': 'x@gmail'}
+    x = {'name':'arushan','id': [3,6,2,56], 'email': 'x@gmail'}
     return jsonify(playerRankData)
 
 def overallPredict(row):
