@@ -41,6 +41,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 10vh;
+  height: 17vh; /* 13vh */
   background-color: #4f4f4f;
 }

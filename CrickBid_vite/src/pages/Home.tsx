@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Image, Card } from "react-bootstrap";
 import "./Home.css";
 
 type Image = {
@@ -67,7 +67,7 @@ https://i.ibb.co/SmWd1Tc/homee.jpg */
     <>
       <div>
         <Container>
-          <Row>
+          {/* <Row>
             <div className="img-list">
               <Row>
                 {images.map((image) => (
@@ -86,10 +86,31 @@ https://i.ibb.co/SmWd1Tc/homee.jpg */
                 ))}
               </Row>
             </div>
-          </Row>
+          </Row> */}
           <Row>
             <Col className="label-bg-home">
-              <label>Text Here</label>
+              <label>
+                <b>How System Works </b>
+              </label>
+
+              <p
+                style={{
+                  textAlign: "center",
+                  fontSize: "14px",
+                  color: "whitesmoke",
+                }}
+              >
+                As a first step User needs to select the player who is sold out
+                or left out the auction from the pool of players available in
+                the system by searching the name of the player. After that in
+                the selecting draft players from the pool section user can
+                choose from which performance based recommendation user needs.
+                Then user should able to select more that 3 draft players for
+                the recommendation for the sold out player. According to the
+                selected draft players system will display the performance
+                points based ranking and recommend the best possible players for
+                the sold out player.
+              </p>
             </Col>
           </Row>
         </Container>
