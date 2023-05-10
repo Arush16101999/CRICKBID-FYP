@@ -43,10 +43,10 @@ function Slider() {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={500}>
         <img
           className="d-block w-100"
-          src="https://www.sportzcraazy.com/wp-content/uploads/2022/10/WhatsApp-Image-2022-10-22-at-14.54.35.jpeg"
+          src="https://i.ibb.co/RGXNHpC/Main.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>

@@ -1,11 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import {
-  Container,
-  Row,
-  Col,
-  Button,
-} from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import "./Recommendation-3.css";
 import "./general.css";
 import RoundedProgressBar from "../Components/ProgressBar";
@@ -222,7 +217,9 @@ function Rec_3() {
                   </Col>
                   <Col md={2}>
                     <div className="button-container">
-                      <Button variant="outline-primary" onClick={pageRedirect}>Done</Button>
+                      <Button variant="outline-primary" onClick={pageRedirect}>
+                        Done
+                      </Button>
                     </div>
                   </Col>
                 </Row>
